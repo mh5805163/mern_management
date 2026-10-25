@@ -1,0 +1,12 @@
+packages:
+  - '.'
+  - 'backend'
+
+pmOnFail: ignore
+
+minimumReleaseAgeExclude:
+  - '@next/*'
+  - next
+
+allowBuilds:
+  esbuild: true
